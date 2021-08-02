@@ -20,4 +20,31 @@ print(type(x), type(y), type(z))
 
 student_grades = [9.1, 8.8, 7.5]
 
- 
+mySum = sum(student_grades)
+
+length = len(student_grades)
+
+
+mean = mySum / length
+print(mean)
+
+max_value = max(student_grades)
+print(max_value)
+
+student_grades = [9.1, 8.8, 10.0, 7.7, 6.8, 8.0, 10.0, 8.1, 10.0, 9.9]
+print(student_grades.count(10.0))
+
+student_grades = [9.1, 8.8, 7.5]
+student_grades = {'Harry': 9.1, 'Sim': 9.8, 'John': 7.5}
+print(student_grades.values())
+print(student_grades.keys())
+
+monday_temps = (1, 4, 5)
+monday_temps2 = [1, 4, 5]
+monday_temps2.append(6)
+# monday_temps.append(6)
+print(monday_temps2)
+print(monday_temps)
+
+monday_temps2.remove(4)
+print(monday_temps2)
