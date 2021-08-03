@@ -48,3 +48,22 @@ print(monday_temps)
 
 monday_temps2.remove(4)
 print(monday_temps2)
+
+monday_temperatures = [9.1, 8.8, 7.5, 11.1, 10.4]
+#  want to use append so in shell, help(list.append)
+monday_temperatures.append(8.1)
+print(monday_temperatures)
+print(monday_temperatures.index(9.1))
+print(monday_temperatures)
+
+# this will give the list item index 1
+print(monday_temperatures[1])
+
+monday_temperatures = [9.1, 8.8, 7.5, 11.1, 10.4]
+
+# Will give 3 items, 1st, 2nd, 3rd
+print(monday_temperatures[:3])
+
+# will give 4th and 5th
+print(monday_temperatures[3:])
+

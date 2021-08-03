@@ -2,7 +2,33 @@
 
 Python got its name not from the snake, but from Monty Python's Flying Circus, a favorite comedy series of Guido van Rossum, the creator of Python
 
-## Ranges
+## Lists
+
+in shell, use:
+
+dir(list) and will mostly use the ones at end without double underscores
+
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+monday_temperatures = [9.1, 8.8, 7.5]
+
+want to use append so in shell, help(list.append)
+
+monday_temperatures.append(8.1)
+print(monday_temperatures)
+
+in shell
+
+help(list.index)
+
+Help on method_descriptor:
+
+index(self, value, start=0, stop=9223372036854775807, /)
+Return first index of value.
+
+    Raises ValueError if the value is not present.
+
+### Ranges
 
 You can create a list of numbers automatically using a range. For example:
 
@@ -24,7 +50,24 @@ That will output:
 
 So, the count happens every two items starting from 1 and ending at 9.
 
-## dictionary
+getting an item with via its index
+
+- monday_temperatures.\_\_getitem\_\_(1)
+  gives item with index 1
+
+but don't need this double underscore method, can just do:
+monday_temperatures[1]
+
+can access one item
+monday_temperatures[3] for fourth temp
+
+but can also access portions of a list
+monday_temperatures[0:3]
+will give first 3, to get first 4 would need to do 0:5 or :5
+
+to get to last item on list use 2:
+
+### dictionary
 
 uses {} and contains items, with key: value pairs
 student_grades = {'Harry': 9.1, 'Sim': 9.8, 'John': 7.5}
