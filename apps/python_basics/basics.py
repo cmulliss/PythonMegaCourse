@@ -7,11 +7,11 @@ year_days = 365
 
 year_hours = day_hours * year_days
 
-print('hours in a week:', week_hours)
-print ('hours in a year:',year_hours)
+print("hours in a week:", week_hours)
+print("hours in a year:", year_hours)
 
 x = 10
-y = '10'
+y = "10"
 z = 10.7
 
 print(x * x, y + y)
@@ -24,7 +24,6 @@ mySum = sum(student_grades)
 
 length = len(student_grades)
 
-
 mean = mySum / length
 print(mean)
 
@@ -35,7 +34,7 @@ student_grades = [9.1, 8.8, 10.0, 7.7, 6.8, 8.0, 10.0, 8.1, 10.0, 9.9]
 print(student_grades.count(10.0))
 
 student_grades = [9.1, 8.8, 7.5]
-student_grades = {'Harry': 9.1, 'Sim': 9.8, 'John': 7.5}
+student_grades = {"Harry": 9.1, "Sim": 9.8, "John": 7.5}
 print(student_grades.values())
 print(student_grades.keys())
 
@@ -67,3 +66,18 @@ print(monday_temperatures[:3])
 # will give 4th and 5th
 print(monday_temperatures[3:])
 
+# negative indexing
+print(monday_temperatures[-2])
+
+# and to slice it:
+# negative indexing will give last 2 numbers
+print(monday_temperatures[-2:])
+
+# last 3 letters
+letters = ["a", "b", "c", "d", "e", "f", "g"]
+print(letters[-3:])
+
+# dictionaries again
+student_grades = {"Harry": 9.1, "Sim": 9.8, "John": 7.5}
+student_grades["Sim"]
+print(student_grades["Sim"])
