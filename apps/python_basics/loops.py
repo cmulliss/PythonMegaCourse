@@ -60,3 +60,36 @@ for grades in student_grades.keys():
 
 for grades in student_grades.values():
     print(grades)
+
+print("*******")
+
+print("while loops")
+for i in [1, 2, 3]:
+    print(i)
+
+print("*******")
+
+username = ""
+while username != "pypy":
+    username = input("Enter username: ")
+
+print("*******")
+
+while True:
+    username = input("Enter username: ")
+    if username == "pypy":
+        break
+    else:
+        continue
+
+print("*******")
+# three goes
+n = 1
+while True:
+    username = input("Enter your username: ")
+    if username == "pypy":
+        break
+    elif n == 3:
+        break
+    else:
+        n += 1

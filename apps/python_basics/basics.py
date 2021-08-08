@@ -76,8 +76,3 @@ print(monday_temperatures[-2:])
 # last 3 letters
 letters = ["a", "b", "c", "d", "e", "f", "g"]
 print(letters[-3:])
-
-# dictionaries again
-student_grades = {"Harry": 9.1, "Sim": 9.8, "John": 7.5}
-student_grades["Sim"]
-print(student_grades["Sim"])
