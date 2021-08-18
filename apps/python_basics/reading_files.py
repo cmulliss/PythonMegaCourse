@@ -5,7 +5,7 @@
 # )
 # better way of doing this, use 'with open'
 with open(
-    "/Users/cherry/repos/PythonMegaCourse/apps/python_basics/text_files/fruits.txt"
+    "/Users/cherry/repos/PythonMegaCourse/apps/python_basics/text_files/fruit.txt", "r"
 ) as myfile:
     content = myfile.read()
 print(content)

@@ -276,3 +276,45 @@ min = a if a < b else b
   
 print(min)
 
+## Built in modules
+
+ all are written in C language, like python
+
+in shell:
+>>> import sys
+>>> sys.builtin_module_names
+will list them all
+
+dir(time) for example will show how to use it
+
+then
+
+>>> help(time.sleep)
+
+shows how to use it, eg:
+
+>>> time.sleep(3)
+
+gives 3 second delay
+
+### Standard python modules
+
+>>> import sys
+>>> import os
+>>> sys.prefix
+'/Library/Frameworks/Python.framework/Versions/3.9'
+
+then in terminal:
+
+open /Library/Frameworks/Python.framework/Versions/3.9
+cherry@Cs-MacBook-Pro 3.9
+
+will bring up window, within which, choose lib, python3.9, will see all standard python modules, all are python code.
+use dir to see what available for each, eg:
+
+dir(path)
+
+
+
+
+

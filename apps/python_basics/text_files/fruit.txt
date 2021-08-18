@@ -4,3 +4,7 @@ orange
 mandarin
 watermelon
 pomegranate
+cherry
+pear
+grapes
+clementine
