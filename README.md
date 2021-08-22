@@ -314,7 +314,10 @@ use dir to see what available for each, eg:
 
 dir(path)
 
+### loading json
 
+use json standard library
+import json
 
-
+data = json.load
 

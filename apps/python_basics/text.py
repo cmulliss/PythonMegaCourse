@@ -1,4 +1,4 @@
-Cheatsheet(Loops)
+# Cheatsheet(Loops)
 # In this section, you learned that:
 
 # For loops are useful for executing a command over a large number of items.
