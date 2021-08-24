@@ -321,3 +321,7 @@ import json
 
 data = json.load
 
+string replacer
+>>> a = 1
+>>> "hey %s there" % a
+'hey 1 there'
