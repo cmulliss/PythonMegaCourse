@@ -325,3 +325,28 @@ string replacer
 >>> a = 1
 >>> "hey %s there" % a
 'hey 1 there'
+
+#### closing file
+
+myfile = open("data.json")
+data = json.load(myfile)
+myfile.close()
+
+or
+Alternately, you can use the 'with' Context Manager to do the garbage collection for you: 
+
+with open(glob2.glob( "/home/**/data.json")[0] ) as data:
+    dictionary = json.load(data)
+
+## python and mysql
+
+use pip to install a connector
+
+>> pip install mysql-connector-python
+
+### ipython
+
+pip install ipython
+
+IPython 7.27.0 -- An enhanced Interactive Python. Type '?' for help.
+
